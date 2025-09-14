@@ -7,6 +7,8 @@ import Mobile from './pages/project-pages/rusdaca/mobile';
 import Web from './pages/project-pages/rusdaca/web';
 import Bukit from './pages/project-pages/tangkeban/bukit';
 import Contact from './pages/Contact';
+import Rusdaca from './pages/project-pages/rusdaca'
+
 
 function App() {
   return (
