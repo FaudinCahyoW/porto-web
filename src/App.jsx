@@ -3,10 +3,9 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Project from './pages/MyProject';
-import Rusdaca from './pages/project-pages/rusdaca/Rusdaca';
 import Mobile from './pages/project-pages/rusdaca/mobile';
 import Web from './pages/project-pages/rusdaca/web';
-import Bukit from './pages/project-pages/tangkeban/Bukit';
+import Bukit from './pages/project-pages/tangkeban/bukit';
 import Contact from './pages/Contact';
 
 function App() {
