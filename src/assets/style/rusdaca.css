@@ -1,0 +1,44 @@
+.container{
+    margin-top: 3rem;
+}
+.mobile{
+    display: flex;
+    margin-top: 1rem;
+    background-color: #1a1c2a;
+    border-radius: 20px;
+    width: 500px;
+
+}
+
+.rusdaca-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    padding: 2rem;
+    margin: 5rem;
+}
+.card{
+    background-color: #1a1c2a;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1);
+}
+
+.card-body{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-body h1 {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.card-body .desc {
+  flex: 1;
+  color: #bbb;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+

@@ -1,0 +1,120 @@
+/* Grid layout untuk semua project */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;                  /* lebih rapat biar enak dibaca */
+  padding: 2rem;
+  margin: 1rem auto;  
+  max-width: 100%;          /* biar grid nggak terlalu melebar */
+}
+
+/* Card style */
+.card {
+  background: #2c2f38;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+}
+
+/* Gambar project */
+.main-photo {
+  width: 80%;               /* jangan full biar ada ruang kiri kanan */
+  height: auto;
+  max-height: 200px;
+  display: block;
+  margin: 1rem auto;        /* center horizontal */
+  object-fit: contain;      /* gambar utuh, nggak kepotong */
+  border-radius: 8px;
+  background: #1f2229;      /* kasih background netral */
+}
+
+/* Card body */
+.card-body {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-body h4 {
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card-body .desc {
+  flex: 1;
+  color: #bbb;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.card-body .tech {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+/* Tombol */
+.project-button {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.3s, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.btn.secondary {
+  background: #6c757d;
+}
+
+.btn.secondary:hover {
+  background: #565e64;
+}
+
+/* Responsif untuk mobile */
+@media (max-width: 600px) {
+  .projects-grid {
+    gap: 2rem;
+    margin: 2rem;
+  }
+
+  .main-photo {
+    width: 100%;           /* di HP biar full */
+    max-height: 180px;
+  }
+
+  .card-body h4 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.7rem;
+  }
+}
