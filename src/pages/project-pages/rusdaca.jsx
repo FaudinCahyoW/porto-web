@@ -1,40 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../assets/style/rusdaca.css";
+import { useTranslation } from "react-i18next";
+
 
 const Rusdaca = () => {
+  const { t } = useTranslation();
+
   const rusdaca = [
     {
       title: "Mobile APP",
       image: "/images/Home.png",
-      desc: "The mobile application of RUSDACA App is designed for end-users to manage resident's house data",
+      desc: t("rusdaca.desc1"),
       link: "/project/rusdaca/app",
       github:"https://github.com/FaudinCahyoW/RUSDACA.git"
     },
     {
       title: "Web Admin",
       image: "/images/rusdaca-web/dashboard.png",
-      desc: "The website admin of RUSDACA App is designed for admin to manage resident's house and their data.",
+      desc: t("rusdaca.desc2"),
       link: "/project/rusdaca/admin",
       github:"https://github.com/FaudinCahyoW/AdminRUSDACA.git"
     },
     {
       title: "REST API",
       image: "/images/API.png",
-      desc: "The REST API of RUSDACA App provides server endpoints to manage resident and house data efficiently.",
+      desc: t("rusdaca.desc3"),
       github:"https://github.com/FaudinCahyoW/APIRUSDACA.git"
     },
   ];
-
   return (
     <>
-      <div className="flex items-center mb-8 mt-8">
-        <h1 className="font-bold text-center w-full">RUSDACA PROJECTS</h1>
+      <div className="flex items-center">
         <Link to="/project">
-          <button className="bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition w-full">
-            Back To Previous
+          <button className="ml-5 mt-5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition ">
+            {t("caption.back")}
           </button>
         </Link>
+        <h1 className="font-bold text-center w-full">RUSDACA PROJECTS</h1>
       </div>
 
       <div className="rusdaca-grid">
@@ -52,7 +55,7 @@ const Rusdaca = () => {
                 {/* Tombol View Project hanya muncul jika bukan REST API */}
                 {project.title !== "REST API" && (
                   <Link to={project.link} className="btn">
-                    View Project
+                    {t("project.button")}
                   </Link>
                 )}
                 {/* Tombol GitHub selalu muncul */}

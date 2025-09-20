@@ -1,0 +1,53 @@
+{
+    "nav":{
+        "home":"Home",
+        "project":"Projects",
+        "contact":"Contact"
+    },
+    "home":{
+        "welcome" :"Hi, I'm Faudin",
+        "role" :"Web Developer",
+        "desc" :"Specialized in building responsive, and user-focused web applications." 
+    },
+    "button":{
+        "button1" :"See My Work",
+        "button2" :"Contact Me"
+    },
+    "project":{
+        "desc":"Entry Data android APP for residents houses with React Native (FrontEnd), Node.js + Express (Backend), dan MongoDB (Database)",
+        "button":"View Project",
+        "desc2":"Company profile website for Bukit Tangkeban tourism built with Laravel, MySQL and Node.js"
+    },
+    "rusdaca":{
+        "desc1":"The mobile application of RUSDACA App is designed for end-users to manage resident's house data.",
+        "desc2":"The website admin of RUSDACA App is designed for admin to manage resident's house and their data.",
+        "desc3":"The REST API of RUSDACA App provides server endpoints to manage resident and house data efficiently."
+
+    },
+    "caption":{
+        "home":"Home Page",
+        "entry":"Form Entry Data",
+        "status":"House Status",
+        "register":"Register Page",
+        "structure":"Organization Structure",
+        "vision":"Vision & Mission",
+        "account":"Account page",
+        "information":"Information Page",
+        "edit":"Edit Data",
+        "back":"Back To Previous",
+        "exit":"Exit",
+        "login":"Login Page",
+        "dashboard":"Dashboard Page",
+        "resident1":"Resident's Data",
+        "resident2":"Resident's Edit Data",
+        "user1":"User Data",
+        "user2":"User Edit Data",
+        "ticket":"Ticketing Page",
+        "cart":"Ticket Cart Page",
+        "about":"About Us Page"
+    },
+    "contact":{
+        "title":"Let's Work Together"
+    }
+
+}

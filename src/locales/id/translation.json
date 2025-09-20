@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "project": "Proyek",
+    "contact": "Kontak"
+  },
+  "home": {
+    "welcome": "Hai, saya Faudin",
+    "role": "Pengembang Web",
+    "desc": "Spesialis dalam membangun aplikasi web yang responsif dan berfokus pada pengguna."
+  },
+  "button": {
+    "button1": "Lihat Karya Saya",
+    "button2": "Hubungi Saya"
+  },
+  "project": {
+    "desc": "Aplikasi Android Entry Data untuk rumah warga menggunakan React Native (FrontEnd), Node.js + Express (Backend), dan MongoDB (Database)",
+    "button": "Lihat Proyek",
+    "desc2": "Website company profile untuk wisata Bukit Tangkeban yang dibangun dengan Laravel, MySQL, dan Node.js"
+  },
+  "rusdaca": {
+    "desc1": "Aplikasi seluler RUSDACA App dirancang untuk pengguna akhir dalam mengelola data rumah warga.",
+    "desc2": "Website admin RUSDACA App dirancang untuk admin dalam mengelola rumah serta data penghuninya.",
+    "desc3": "REST API RUSDACA App menyediakan endpoint server untuk mengelola data penghuni dan rumah secara efisien."
+  },
+  "caption": {
+    "home": "Halaman Beranda",
+    "entry": "Formulir Entri Data",
+    "status": "Status Rumah",
+    "register": "Halaman Registrasi",
+    "structure": "Struktur Organisasi",
+    "vision": "Visi & Misi",
+    "account": "Halaman Akun",
+    "information": "Halaman Informasi",
+    "edit": "Edit Data",
+    "back": "Kembali ke Sebelumnya",
+    "exit": "Keluar",
+    "login": "Halaman Login",
+    "dashboard": "Halaman Dashboard",
+    "resident1": "Data Penghuni",
+    "resident2": "Edit Data Penghuni",
+    "user1": "Data Pengguna",
+    "user2": "Edit Data Pengguna",
+    "ticket": "Halaman Tiket",
+    "cart": "Halaman Keranjang Tiket",
+    "about": "Halaman Tentang Kami"
+  },
+  "contact": {
+    "title": "Mari Bekerja Sama"
+  }
+}

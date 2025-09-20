@@ -8,16 +8,19 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
+    "i18next": "^25.5.2",
+    "i18next-browser-languagedetector": "^8.2.0",
     "lucide-react": "^0.544.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.7.3",
     "react-router-dom": "^7.3.0",
-    "react-slick": "^0.31.0",
-    "gh-pages":"^6.3.0"
+    "react-slick": "^0.31.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

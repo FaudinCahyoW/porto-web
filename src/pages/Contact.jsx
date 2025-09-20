@@ -1,10 +1,13 @@
 // Contact.jsx
 import { Mail, Linkedin, Github } from "lucide-react";
 import NavbarComp from "../component/NavbarComp";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   return (
-    <NavbarComp>
+  <NavbarComp>
       <section
         id="contact"
         className="w-full  text-gray-900 py-20 px-6 md:px-20"
@@ -12,7 +15,7 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto">
           {/* Judul */}
           <h2 className="text-3xl text-white md:text-4xl font-bold text-center mb-12">
-            Let’s Work Together
+            {t("contact.title")}
           </h2>
 
           {/* Contact Cards */}
