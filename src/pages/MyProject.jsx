@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 import NavbarComp from "../component/NavbarComp";
 import { useTranslation } from "react-i18next";
 
-
 const Project = () => {
   const { t } = useTranslation();
-  
+
   const projects = [
     {
       title: "RUSDACA APP",
-      image: "/images/Home.png",
+      image: "/images/Home.webp",
       desc: t("project.desc"),
       tech: "React, Express, MongoDB, REST API",
       route: "/project/rusdaca",
@@ -18,7 +17,7 @@ const Project = () => {
     },
     {
       title: "Bukit Tangkeban Website",
-      image: "/images/bukit/Home.png",
+      image: "/images/bukit/Home.webp",
       desc: t("project.desc2"),
       tech: "Laravel, MySQL, node.js",
       route: "/project/bukit",
@@ -27,7 +26,7 @@ const Project = () => {
   ];
   return (
     <>
-      <NavbarComp >
+      <NavbarComp>
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div className="card" key={index}>
@@ -35,6 +34,9 @@ const Project = () => {
                 src={project.image}
                 alt={project.title}
                 className="main-photo"
+                width="400"
+                height="300"
+                loading="lazy"
               />
               <div className="card-body">
                 <h4>{project.title}</h4>

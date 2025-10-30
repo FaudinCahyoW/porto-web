@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import myphoto from "/images/postcard.png";
+import myphoto from "/images/postcard.webp";
 import "../assets/style/navbar.css";
 import NavbarComp from "../component/NavbarComp";
 
@@ -17,21 +17,36 @@ const Home = () => {
           <h3 className="text-xl md:text-2xl  font-bold mr-14">
             {t("home.role")}
           </h3>
-          <p className="text-gray-500 dark:text-gray-300 mr-14">{t("home.desc")}</p>
+          <p className="text-gray-500 dark:text-gray-300 mr-14">
+            {t("home.desc")}
+          </p>
 
           <div className="button-container flex flex-col sm:flex-row gap-4 mt-6 justify-center md:justify-start mr-14">
-            <Link to="/project" className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-5 rounded-md transition">
+            <Link
+              to="/project"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-5 rounded-md transition"
+            >
               {t("button.button1")}
             </Link>
-            <Link to="/contact" className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium py-2 px-5 rounded-md transition">
+            <Link
+              to="/contact"
+              className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium py-2 px-5 rounded-md transition"
+            >
               {t("button.button2")}
             </Link>
           </div>
         </div>
 
         <div className="c2 w-2/3 md:w-1/2 lg:w-1/3">
-          <img src={myphoto} alt="My Photo" className="my-photo hidden sm:block w-48 md:w-64 lg:w-80 h-auto rounded-2xl shadow-lg mx-auto"
- />
+          <img
+            src={myphoto}
+            alt="My Photo"
+            fetchpriority="high"
+            decoding="async"
+            width="688"
+            height="987"
+            className="my-photo hidden sm:block w-48 md:w-64 lg:w-80 h-auto rounded-2xl shadow-lg mx-auto"
+          />
         </div>
       </div>
     </NavbarComp>
