@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import myphoto from "/images/photo-removebg-preview.png"; 
+import myPhoto from "/images/photo-removebg-preview.png"; 
 import "../assets/style/navbar.css";
 import NavbarComp from "../component/NavbarComp";
 
@@ -21,7 +20,7 @@ const Home = () => {
         </div>
 
         <div className="c2">
-          <img src={myphoto} alt="My Photo" className="myphoto" />
+          <img src={myPhoto} alt="My Photo" className="my-photo" />
         </div>
       </div>
     </NavbarComp>

@@ -41,4 +41,31 @@
   margin-bottom: 0.8rem;
 }
 
+@media (max-width: 600px) {
 
+  .title-page{
+    margin-top: 1.5rem;
+    font-size: 20px;
+  }
+  .rusdaca-grid {
+    
+    gap: 2rem;
+    margin: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+
+  .main-photo {
+    width: 100%;           /* di HP biar full */
+    max-height: 180px;
+  }
+
+  .card-body  {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.7rem;
+  }
+}

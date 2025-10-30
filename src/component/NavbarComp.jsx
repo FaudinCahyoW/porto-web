@@ -3,7 +3,7 @@ import "../assets/style/navbar.css";
 import { useTranslation } from "react-i18next";
 
 const NavbarComp = ({ children }) => {
-  const { t, i18n } = useTranslation(); // ✅ cukup sekali
+  const { t, i18n } = useTranslation(); //
 
   return (
     <>

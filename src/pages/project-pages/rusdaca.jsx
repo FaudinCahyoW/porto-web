@@ -1,8 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "../../assets/style/rusdaca.css";
 import { useTranslation } from "react-i18next";
-
 
 const Rusdaca = () => {
   const { t } = useTranslation();
@@ -33,11 +31,11 @@ const Rusdaca = () => {
     <>
       <div className="flex items-center">
         <Link to="/project">
-          <button className="ml-5 mt-5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition ">
+          <button className="btn-prev ml-5 mt-5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition ">
             {t("caption.back")}
           </button>
         </Link>
-        <h1 className="font-bold text-center w-full">RUSDACA PROJECTS</h1>
+        <h1 className="title-page font-bold text-center w-full">RUSDACA PROJECTS</h1>
       </div>
 
       <div className="rusdaca-grid">

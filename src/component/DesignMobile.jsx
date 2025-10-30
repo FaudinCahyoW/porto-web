@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../assets/style/mobile.css";
 
 const DesignMobile = ({ images, captions }) => {

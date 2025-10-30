@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "../assets/style/web.css";
 
 const DesignComp = ({ images, captions,widths }) => {
