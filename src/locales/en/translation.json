@@ -24,6 +24,12 @@
         "desc3":"The REST API of RUSDACA App provides server endpoints to manage resident and house data efficiently."
 
     },
+    "expense":{
+        "desc":"An expense tracker website is a website that is used to track daily money expenses."
+    },
+    "movie":{
+        "desc":"Movie store website is a website that provides popular movies and a shopping cart for ordering tickets."
+    },
     "caption":{
         "home":"Home Page",
         "entry":"Form Entry Data",
@@ -44,7 +50,8 @@
         "user2":"User Edit Data",
         "ticket":"Ticketing Page",
         "cart":"Ticket Cart Page",
-        "about":"About Us Page"
+        "about":"About Us Page",
+        "cart-store": "Cart Page"
     },
     "contact":{
         "title":"Let's Work Together"

@@ -23,6 +23,12 @@
     "desc2": "Website admin RUSDACA App dirancang untuk admin dalam mengelola rumah serta data penghuninya.",
     "desc3": "REST API RUSDACA App menyediakan endpoint server untuk mengelola data penghuni dan rumah secara efisien."
   },
+  "expense":{
+    "desc":"Website expense tracker adalah website yang digunakan untuk melacak pengeluaran uang sehari-hari"
+  },
+  "movie":{
+    "desc":"Website movie store adalah website yang menyediakan film populer dan penyimpanan keranjang untuk pemesanan tiket"
+  },
   "caption": {
     "home": "Halaman Beranda",
     "entry": "Formulir Entri Data",
@@ -43,7 +49,9 @@
     "user2": "Edit Data Pengguna",
     "ticket": "Halaman Tiket",
     "cart": "Halaman Keranjang Tiket",
-    "about": "Halaman Tentang Kami"
+    "about": "Halaman Tentang Kami",
+    "cart-store": "Halaman Keranjang"
+
   },
   "contact": {
     "title": "Mari Bekerja Sama"

@@ -2,13 +2,11 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import myphoto from "/images/postcard.webp";
 import "../assets/style/navbar.css";
-import NavbarComp from "../component/NavbarComp";
 
 const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <NavbarComp>
       <div className="content flex flex-col-reverse md:flex-row items-center justify-between p-6 md:p-12 lg:p-20 gap-8">
         <div className="c1 text-center md:text-left max-w-lg space-y-4">
           <h3 className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-white mr-14">
@@ -49,7 +47,6 @@ const Home = () => {
           />
         </div>
       </div>
-    </NavbarComp>
   );
 };
 

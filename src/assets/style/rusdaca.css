@@ -7,16 +7,16 @@
     background-color: #1a1c2a;
     border-radius: 20px;
     width: 500px;
-
 }
 
-.rusdaca-grid{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
-    padding: 2rem;
-    margin: 2rem;
+.rusdaca-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  padding: 2rem;
+  margin: 0 2rem 2rem 2rem; /* atas = 0, biar tidak mendorong title */
 }
+
 .card{
     background-color: #1a1c2a;
     border-radius: 12px;
@@ -43,24 +43,25 @@
 
 @media (max-width: 600px) {
 
-  .title-page{
-    margin-top: 1.5rem;
+  /* kasih ruang ekstra biar gak ketutup tombol/header */
+  .title-page {
+    margin-top: 4rem;        /* dari 1.5rem → 4rem */
     font-size: 20px;
+    text-align: center;
   }
+
   .rusdaca-grid {
-    
     gap: 2rem;
     margin: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(1, 1fr); /* selalu 1 kolom */
   }
 
-
   .main-photo {
-    width: 100%;           /* di HP biar full */
+    width: 100%;
     max-height: 180px;
   }
 
-  .card-body  {
+  .card-body {
     font-size: 1rem;
   }
 
@@ -69,3 +70,4 @@
     padding: 0.5rem 0.7rem;
   }
 }
+

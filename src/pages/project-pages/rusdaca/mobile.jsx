@@ -5,7 +5,7 @@ const Mobile = () => {
   const { t } = useTranslation();
 
   const images = [
-    "/images/Home.png",
+    "/images/Home.webp",
     "/images/Entry.png",
     "/images/Status.png",
     "/images/Register.png",

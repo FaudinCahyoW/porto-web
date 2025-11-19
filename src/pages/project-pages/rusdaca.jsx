@@ -8,34 +8,39 @@ const Rusdaca = () => {
   const rusdaca = [
     {
       title: "Mobile APP",
-      image: "/images/Home.png",
+      image: "/images/Home.webp",
       desc: t("rusdaca.desc1"),
       link: "/project/rusdaca/app",
-      github:"https://github.com/FaudinCahyoW/RUSDACA.git"
+      github: "https://github.com/FaudinCahyoW/RUSDACA.git",
     },
     {
       title: "Web Admin",
       image: "/images/rusdaca-web/dashboard.png",
       desc: t("rusdaca.desc2"),
       link: "/project/rusdaca/admin",
-      github:"https://github.com/FaudinCahyoW/AdminRUSDACA.git"
+      github: "https://github.com/FaudinCahyoW/AdminRUSDACA.git",
     },
     {
       title: "REST API",
       image: "/images/API.png",
       desc: t("rusdaca.desc3"),
-      github:"https://github.com/FaudinCahyoW/APIRUSDACA.git"
+      github: "https://github.com/FaudinCahyoW/APIRUSDACA.git",
     },
   ];
   return (
-    <>
-      <div className="flex items-center">
+    <div className="flex flex-col">
+      <div className="fixed top-5 left-5 z-50">
         <Link to="/project">
-          <button className="btn-prev ml-5 mt-5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition ">
+          <button className="bg-blue-500 text-white rounded-lg px-4 py-2 hover:bg-blue-600 transition">
             {t("caption.back")}
           </button>
         </Link>
-        <h1 className="title-page font-bold text-center w-full">RUSDACA PROJECTS</h1>
+      </div>
+
+      <div className="mt-5">
+        <h1 className="title-page font-bold text-center w-full">
+          Bukit Tangkeban Website
+        </h1>
       </div>
 
       <div className="rusdaca-grid">
@@ -65,7 +70,7 @@ const Rusdaca = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

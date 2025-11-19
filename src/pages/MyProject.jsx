@@ -23,6 +23,23 @@ const Project = () => {
       route: "/project/bukit",
       github: "https://github.com/FaudinCahyoW/tangkeban_web.git",
     },
+    {
+      title: "Expense Tracker",
+      image: "/images/expense-tracker/expense-tracker.webp",
+      desc: t("expense.desc"),
+      tech: "TypeScript",
+      route: "/project/expense",
+      github: "https://github.com/FaudinCahyoW/expense-tracker-ts",
+    },
+    {
+      title: "Movie Store",
+      image: "/images/movie-store/home.webp",
+      desc: t("movie.desc"),
+      tech: "React.js, Tailwind CSS, TypeScript, Vite",
+      route: "/project/movie",
+      github: "https://github.com/FaudinCahyoW/movie-web-app",
+    },
+    
   ];
   return (
     <>

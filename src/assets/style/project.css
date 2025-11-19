@@ -1,39 +1,40 @@
 /* Grid layout untuk semua project */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;                  /* lebih rapat biar enak dibaca */
+  grid-template-columns: repeat(3, 1fr); /* selalu 3 kolom */
+  gap: 2rem; /* lebih rapat biar enak dibaca */
   padding: 2rem;
-  margin: 1rem auto;  
-  max-width: 100%;          /* biar grid nggak terlalu melebar */
+  margin: 1rem auto;
+  max-width: 100%; /* biar grid nggak terlalu melebar */
 }
 
 /* Card style */
 .card {
   background: #2c2f38;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 400px;
 }
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Gambar project */
 .main-photo {
-  width: 80%;               /* jangan full biar ada ruang kiri kanan */
+  width: 80%; /* jangan full biar ada ruang kiri kanan */
   height: auto;
   max-height: 200px;
   display: block;
-  margin: 1rem auto;        /* center horizontal */
-  object-fit: contain;      /* gambar utuh, nggak kepotong */
+  margin: 1rem auto; /* center horizontal */
+  object-fit: contain; /* gambar utuh, nggak kepotong */
   border-radius: 8px;
-  background: #1f2229;      /* kasih background netral */
+  background: #1f2229; /* kasih background netral */
 }
 
 /* Card body */
@@ -57,6 +58,7 @@
   font-size: 0.9rem;
   margin-bottom: 0.8rem;
   line-height: 1.4;
+  min-height: 70px;
 }
 
 .card-body .tech {
@@ -102,10 +104,12 @@
   .projects-grid {
     gap: 2rem;
     margin: 2rem;
+    grid-template-columns: repeat(1, 1fr); /* selalu 3 kolom */
+
   }
 
   .main-photo {
-    width: 100%;           /* di HP biar full */
+    width: 100%; /* di HP biar full */
     max-height: 180px;
   }
 
