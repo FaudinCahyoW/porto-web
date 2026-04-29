@@ -7,7 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import NavbarComp from "./component/NavbarComp"; // <-- kamu lupa import ini!
+import NavbarComp from "./component/NavbarComp";
 import Home from "./pages/Home";
 import Project from "./pages/MyProject";
 import Mobile from "./pages/project-pages/rusdaca/mobile";
@@ -46,7 +46,7 @@ function App() {
         <Route path="/project/movie" element={<MovieStore/>}/>
         
         <Route path="/project/vending" element={<NextVending/>}/>
-        
+
         <Route path="/contact" element={<Contact />} />
 
         <Route path="*" element={<Navigate to="/" />} />
