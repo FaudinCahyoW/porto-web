@@ -23,11 +23,15 @@
     "desc2": "Website admin RUSDACA App dirancang untuk admin dalam mengelola rumah serta data penghuninya.",
     "desc3": "REST API RUSDACA App menyediakan endpoint server untuk mengelola data penghuni dan rumah secara efisien."
   },
-  "expense":{
-    "desc":"Website expense tracker adalah website yang digunakan untuk melacak pengeluaran uang sehari-hari"
+  "expense": {
+    "desc": "Website expense tracker adalah website yang digunakan untuk melacak pengeluaran uang sehari-hari"
   },
-  "movie":{
-    "desc":"Website movie store adalah website yang menyediakan film populer dan penyimpanan keranjang untuk pemesanan tiket"
+  "movie": {
+    "desc": "Website movie store adalah website yang menyediakan film populer dan penyimpanan keranjang untuk pemesanan tiket"
+  },
+
+  "vending": {
+    "desc": "Website vending machine adalah proyek website simulasi mesin penjual otomatis yang memungkinkan pengguna memilih produk, melihat harga, dan melakukan proses pembelian secara interaktif dengan tampilan modern serta responsif."
   },
   "caption": {
     "home": "Halaman Beranda",
@@ -50,8 +54,11 @@
     "ticket": "Halaman Tiket",
     "cart": "Halaman Keranjang Tiket",
     "about": "Halaman Tentang Kami",
-    "cart-store": "Halaman Keranjang"
-
+    "cart-store": "Halaman Keranjang",
+    "home-vending": "Halaman Vending Machine",
+    "insert": "Halaman Masukan Uang",
+    "receipt": "Halaman Struk Belanja",
+    "success": "Notifikasi Berhasil Memasukkan Uang"
   },
   "contact": {
     "title": "Mari Bekerja Sama"

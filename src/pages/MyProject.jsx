@@ -39,6 +39,14 @@ const Project = () => {
       route: "/project/movie",
       github: "https://github.com/FaudinCahyoW/movie-web-app",
     },
+    {
+      title: "Vending Machine Web",
+      image: "/images/next-vendingMachine/home.png",
+      desc: t("vending.desc"),
+      tech: "Next.js, Tailwind CSS, TypeScript, Vite",
+      route: "/project/vending",
+      github: "https://github.com/FaudinCahyoW/react-vending-machine/tree/main/frontend",
+    },
     
   ];
   return (

@@ -30,6 +30,11 @@
     "movie":{
         "desc":"Movie store website is a website that provides popular movies and a shopping cart for ordering tickets."
     },
+
+    "vending":{
+        "desc":"The vending machine website is a vending machine simulation website project that allows users to select products, view prices, and make purchases interactively with a modern and responsive appearance."
+    },
+
     "caption":{
         "home":"Home Page",
         "entry":"Form Entry Data",
@@ -51,7 +56,12 @@
         "ticket":"Ticketing Page",
         "cart":"Ticket Cart Page",
         "about":"About Us Page",
-        "cart-store": "Cart Page"
+        "cart-store": "Cart Page",
+        "home-vending": "Vending Machine Page",
+        "insert":"Insert Money Page",
+        "receipt":"Sales Receipt Page",
+        "success":"Success Notification"
+
     },
     "contact":{
         "title":"Let's Work Together"
