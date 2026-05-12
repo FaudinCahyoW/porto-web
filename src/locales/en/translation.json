@@ -65,6 +65,8 @@
     },
     "contact":{
         "title":"Let's Work Together"
+    },
+    "selfPhoto":{
+        "desc":"This booking application was created to help the photo studio booking process at Self Photo Studio Cakung, users can make photo studio bookings without needing to log in."
     }
-
 }
