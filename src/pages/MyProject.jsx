@@ -13,7 +13,6 @@ const Project = () => {
       desc: t("project.desc"),
       tech: "React, Express, MongoDB, REST API",
       route: "/project/rusdaca",
-      github: "https://github.com/FaudinCahyoW/RUSDACA.git",
     },
     {
       title: "Bukit Tangkeban Website",
@@ -45,9 +44,15 @@ const Project = () => {
       desc: t("vending.desc"),
       tech: "Next.js, Tailwind CSS, TypeScript, Vite",
       route: "/project/vending",
-      github: "https://github.com/FaudinCahyoW/react-vending-machine/tree/main/frontend",
+      github:
+        "https://github.com/FaudinCahyoW/react-vending-machine/tree/main/frontend",
     },
-    
+    {
+      title: "Self Photo Studio Booking App (UNDER DEVELOPMENT)",
+      desc: t("selfPhoto.desc"),
+      tech: "Next.js, Tailwind CSS, Supabase, TypeScript",
+      github: "https://github.com/FaudinCahyoW/SelfPhoto-Booking",
+    },
   ];
   return (
     <>
@@ -70,10 +75,12 @@ const Project = () => {
                   <strong>Tech Stack:</strong> {project.tech}
                 </p>
                 <div className="project-button">
-                  <Link to={project.route} className="btn">
-                    {t("project.button")}
-                  </Link>
-                  {project.title !== "RUSDACA APP" && (
+                  {project.route && (
+                    <Link to={project.route} className="btn">
+                      {t("project.button")}
+                    </Link>
+                  )}
+                  {project.github && (
                     <a href={project.github} className="btn secondary">
                       Link Project
                     </a>
