@@ -87,7 +87,7 @@ const Project = () => {
                     </a>
                   )}
                   {project.live && (
-                    <a href={project.live} classname="btn primary">
+                    <a href={project.live} classname="btn">
                       Live Project
                     </a>
                   )}
