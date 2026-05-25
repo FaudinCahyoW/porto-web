@@ -48,11 +48,12 @@ const Project = () => {
         "https://github.com/FaudinCahyoW/react-vending-machine/tree/main/frontend",
     },
     {
-      title: "Self Photo Studio Booking App (UNDER DEVELOPMENT)",
+      title: "Photo Studio Booking web App (UNDER DEVELOPMENT)",
+      image: "/images/booking-photo/booking-photo.png",
       desc: t("selfPhoto.desc"),
       tech: "Next.js, Tailwind CSS, Supabase, TypeScript",
       github: "https://github.com/FaudinCahyoW/SelfPhoto-Booking",
-      live: "https://self-photo-booking-one.vercel.app/"
+      live: "https://self-photo-booking-one.vercel.app/",
     },
   ];
   return (
@@ -81,14 +82,14 @@ const Project = () => {
                       {t("project.button")}
                     </Link>
                   )}
+                  {project.live && (
+                    <a href={project.live} className="btn">
+                      Live Project
+                    </a>
+                  )}
                   {project.github && (
                     <a href={project.github} className="btn secondary">
                       Link Project
-                    </a>
-                  )}
-                  {project.live && (
-                    <a href={project.live} classname="btn">
-                      Live Project
                     </a>
                   )}
                 </div>
