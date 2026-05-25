@@ -52,6 +52,7 @@ const Project = () => {
       desc: t("selfPhoto.desc"),
       tech: "Next.js, Tailwind CSS, Supabase, TypeScript",
       github: "https://github.com/FaudinCahyoW/SelfPhoto-Booking",
+      live: "https://self-photo-booking-one.vercel.app/"
     },
   ];
   return (
@@ -83,6 +84,11 @@ const Project = () => {
                   {project.github && (
                     <a href={project.github} className="btn secondary">
                       Link Project
+                    </a>
+                  )}
+                  {project.live && (
+                    <a href={project.live} classname="btn primary">
+                      Live Project
                     </a>
                   )}
                 </div>
