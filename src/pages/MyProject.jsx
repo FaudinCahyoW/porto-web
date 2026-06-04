@@ -8,7 +8,7 @@ const Project = () => {
 
   const projects = [
     {
-      title: "Photo Studio Booking web App (UNDER DEVELOPMENT)",
+      title: "Photo Studio Booking Web App",
       image: "/images/booking-photo/booking-photo.png",
       desc: t("selfPhoto.desc"),
       tech: "Next.js, Tailwind CSS, Supabase, TypeScript",
