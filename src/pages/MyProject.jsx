@@ -84,7 +84,7 @@ const Project = () => {
                   )}
                   {project.live && (
                     <a href={project.live} className="btn">
-                      Live Project
+                      Live Demo
                     </a>
                   )}
                   {project.github && (
