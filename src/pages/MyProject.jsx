@@ -8,6 +8,14 @@ const Project = () => {
 
   const projects = [
     {
+      title: "Photo Studio Booking web App (UNDER DEVELOPMENT)",
+      image: "/images/booking-photo/booking-photo.png",
+      desc: t("selfPhoto.desc"),
+      tech: "Next.js, Tailwind CSS, Supabase, TypeScript",
+      github: "https://github.com/FaudinCahyoW/SelfPhoto-Booking",
+      live: "https://self-photo-booking-one.vercel.app/",
+    },
+    {
       title: "RUSDACA APP",
       image: "/images/Home.webp",
       desc: t("project.desc"),
@@ -46,14 +54,6 @@ const Project = () => {
       route: "/project/vending",
       github:
         "https://github.com/FaudinCahyoW/react-vending-machine/tree/main/frontend",
-    },
-    {
-      title: "Photo Studio Booking web App (UNDER DEVELOPMENT)",
-      image: "/images/booking-photo/booking-photo.png",
-      desc: t("selfPhoto.desc"),
-      tech: "Next.js, Tailwind CSS, Supabase, TypeScript",
-      github: "https://github.com/FaudinCahyoW/SelfPhoto-Booking",
-      live: "https://self-photo-booking-one.vercel.app/",
     },
   ];
   return (
