@@ -8,6 +8,13 @@ const Project = () => {
 
   const projects = [
     {
+      title: "Store Management Web App (Wayrung)",
+      image: "/images/wayrung/dashboard.png",
+      desc: t("wayrung.desc"),
+      tech: "Next.js, Tailwind CSS, PostgreSQL, TypeScript, Golang, AI Agent, Docker",
+      github: "https://github.com/FaudinCahyoW/Wayrung",
+    },
+    {
       title: "Photo Studio Booking Web App",
       image: "/images/booking-photo/booking-photo.png",
       desc: t("selfPhoto.desc"),

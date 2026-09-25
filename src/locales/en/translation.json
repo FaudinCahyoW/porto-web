@@ -68,5 +68,9 @@
     },
     "selfPhoto":{
         "desc":"This Booking Application is designed as a digital solution to modernize the reservation system for Photo Studio businesses. It offers seamless access for users to book photo studio slots instantly, without the friction of a mandatory login process."
-    }
+    },
+
+    "wayrung" :{
+        "desc":"Wayrung is a digital MSME management application that enables business owners to track income and expenses and monitor inventory levels in real-time, integrated with an interactive AI Chatbot to streamline daily operations and business insights."
+    } 
 }

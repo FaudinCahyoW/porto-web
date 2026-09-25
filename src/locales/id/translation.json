@@ -66,8 +66,10 @@
   },
 
   "selfPhoto": {
-    "desc":"Aplikasi Booking ini dirancang sebagai solusi digital untuk modernisasi sistem pemesanan pada bisnis Photo Studio. Aplikasi ini menawarkan kemudahan akses bagi pengguna untuk melakukan reservasi slot foto studio secara langsung tanpa perlu melewati proses login."
-  }
+    "desc": "Aplikasi Booking ini dirancang sebagai solusi digital untuk modernisasi sistem pemesanan pada bisnis Photo Studio. Aplikasi ini menawarkan kemudahan akses bagi pengguna untuk melakukan reservasi slot foto studio secara langsung tanpa perlu melewati proses login."
+  },
 
-  
+  "wayrung": {
+    "desc": "Wayrung adalah aplikasi manajemen UMKM berbasis digital yang membantu pelaku usaha mengelola pencatatan pendapatan dan pengeluaran serta memantau stok barang secara real-time, dilengkapi fitur AI Chatbot interaktif untuk mempermudah operasional dan konsultasi bisnis."
+  }
 }
